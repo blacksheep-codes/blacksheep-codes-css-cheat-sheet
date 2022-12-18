@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 20px;
+    background-color: rgb(24, 133, 82);
+    color: #fff;
+    
+}
+
+h1 {
+    color: #030316;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 10px;
+}
+
+header p {
+    width: 50%;
+    margin: 0 auto;
+} 
+
+#deblock_example {
+    background-color: #030316;
+    padding: 15px;
+    
+}
+
+.para {
+    font-size: 22px;
+    width: 50%;
+    margin: 10px auto;
+    font-weight: bold;
+    
+} 
+
+
+
+table,td,th {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+table {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 7, 0.2);
+}
+
+td, th {
+    padding: 8px;
+    padding-right: 40px;
+}
+
+td:hover {
+    color: red;
+    background-color: #000;
+    transition: 1s;
+    transform: scale(1.2);
+    
+}
+
+th {
+    background-color: #030316;
+}
