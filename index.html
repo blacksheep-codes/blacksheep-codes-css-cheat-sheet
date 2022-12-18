@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Own Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Common css properties</h1>
+        <p>CSS stands for Cascading Style Sheets. The documents written in HTML are formatted and presented 
+            using CSS. There are many features in HTML and CSS is the most popular addition to it. Rather 
+            than changing the web page itself, with CSS, only the styles need to be changed, which means 
+            fewer chances to the overall code. Further, HTML contained a  lot of repeated code for each web 
+            page, which can be put in a common file with CSS and used across web pages. <br><br>
+
+            CSS contains &gt; selector and declaration block. A declaration block consists of property-value 
+            pairs.  Example,
+        </p>  <br>
+        
+        <p id="deblock_example">header {<br>
+             &nbsp &nbsp color: green;<br>
+           }
+        </p>
+        <br>    
+
+    </header>
+    <main>
+        <div>
+            <p class="para">1. font</p>
+            <table class="table">
+                <tr>
+                    <th>Property</th>
+                    <th>values</th>
+                    <th>examples</th>
+                </tr>
+                <tr>
+                    <td>font-style</td>
+                    <td>normal/italic/inherit/oblique</td>
+                    <td>font-style: normal</td>
+                </tr>
+                <tr>
+                    <td>font-variant</td>
+                    <td>normal/inherit/small-caps</td>
+                    <td>font-variant: small-caps</td>
+                </tr>
+                <tr>
+                    <td>font-weight</td>
+                    <td>normal/bold/bolder/lighter/100-900/inherit</td>
+                    <td>font-weight:bold</td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>?px/?%/small/medium/large</td>
+                    <td>font-family: verdana</td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>?px/?%/small/medium/large </td>
+                    <td>font-size: large font-size :5</td>
+                </tr>
+                <tr>
+                    <td>font-family</td>
+                    <td>verdana/calibri.. etc…</td>
+                    <td>font-family: verdana</td>
+                </tr>
+            </table>
+
+        </div>
+        
+        <div>
+            <p class="para">2. Text</p>
+            <table class="table">
+                <tr>
+                    <th>text-align</th>
+                    <th>left/right/center/justify</th>
+                    <th>text-align: justify;</th>
+                </tr>
+                <tr>
+                    <td>letter spacing</td>
+                    <td>normal/length/?%</td>
+                    <td>letter spacing : 3%;</td>
+                </tr>
+                <tr>
+                    <td>Text-outline</td>
+                    <td>None/length/color</td>
+                    <td>Text-outline: red</td>
+                </tr>
+                <tr>
+                    <td>word-wrap</td>
+                    <td>normal/length</td>
+                    <td>word-wrap: normal;</td>
+                </tr>
+                <tr>
+                    <td>direction</td>
+                    <td>ltr/rtl/inherit</td>
+                    <td>Direction: ltr;</td>
+                </tr>
+                <tr>
+                    <td>text-wrap</td>
+                    <td>normal/unrestricted/none</td>
+                    <td>text-wrap: normal</td>
+                </tr>
+                <tr>
+                    <td>text-indent</td>
+                    <td>?%/?px</td>
+                    <td>text-indent: 2%</td>
+                </tr>
+                <tr>
+                    <td>word-spacing</td>
+                    <td>normal/?%/?px</td>
+                    <td>word-spacing: normal</td>
+                </tr>
+                <tr>
+                    <td>text-transform</td>
+                    <td>none/uppercase/lowercase/capitalize</td>
+                    <td>text-transform: lowercase</td>
+                </tr>
+                <tr>
+                    <td>text-emphasis</td>
+                    <td>none/dot/open/filled/circle/triangle</td>
+                    <td>text-emphasis: filled</td>
+                </tr>
+                <tr>
+                    <td>text-justify</td>
+                    <td>auto/distribute/inter-word</td>
+                    <td>text-justify:distribute</td>
+                </tr>
+            </table>
+
+        </div>
+        <div>
+            <p class="para">3. User Interface</p>
+            <table class="table">                
+                <tr><tr>
+                    <th>text-align</th>
+                    <th>left/right/center/justify</th>
+                    <th>text-align: justify;</th>
+                </tr>
+                    <td>cursor</th>
+                    <td>auto | crosshair | default | pointer | move | e-resize | neresize | nw-resize | n-resize | se-resize | sw-resize | swresize | s-resize | w-resize | text | wait | help</th>
+                    <td>.help { cursor: help; }</th>
+                </tr>                
+                <tr>
+                    <td>nav-index - specifies the sequential navigation order of current element. Similar to tab index in html. Values can be auto or a positive number representing the navigation order. First value is 1.</td>
+                    <td>auto | inherit  number</td>
+                    <td>nav-index: 1;</td>
+                </tr>
+                <tr>
+                    <td>nav-up</td>
+                    <td>auto | inherit <id> [current | root | <target-name> auto (browser decides where to navigate to)/ id (specific ID to be navigated to)/ target_name (target frame to navigate to)/inherit (value computed based on element’s parent; root or current)</td>
+                    <td>nav-up: auto;</td>
+                </tr>
+                <tr>
+                    <td>nav-down</td>
+                    <td>auto | inherit <id> [current | root | <target-name></td>
+                    <td>nav-down: #b2;</td>
+                </tr>
+                <tr>
+                    <td>nav-left</td>
+                    <td>auto | inherit <id> [current | root | <target-name></target-name>ltr/rtl/inherit</td>
+                    <td>nav-left: #b1;</td>
+                </tr>
+                <tr>
+                    <td>nav-right</td>
+                    <td>auto | inherit <id> [current | root | <target-name></td>
+                    <td>nav-right: #b2;</td>
+                </tr>
+                <tr>
+                    <td>resize</td>
+                    <td>none | both | horizontal | vertical | inherit</td>
+                    <td>resize: horizontal;</td>
+                </tr>
+                <tr>
+                    <td>icon</td>
+                    <td>auto | inherit  url</td>
+                    <td>icon: url(“like.png”);</td>
+                </tr>
+                
+            </table>
+
+        </div>
+
+
+    </main>
+
+</body>
+</html>
